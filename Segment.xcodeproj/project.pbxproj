@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07161C0D176EE8E800453716 /* dfhr.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161C0C176EE8E800453716 /* dfhr.m */; };
 		07EB60F31755D5EE00DFDF82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB60F21755D5EE00DFDF82 /* UIKit.framework */; };
 		07EB60F51755D5EE00DFDF82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB60F41755D5EE00DFDF82 /* Foundation.framework */; };
 		07EB60F71755D5EE00DFDF82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EB60F61755D5EE00DFDF82 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07161C0B176EE8E800453716 /* dfhr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dfhr.h; sourceTree = "<group>"; };
+		07161C0C176EE8E800453716 /* dfhr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dfhr.m; sourceTree = "<group>"; };
 		07EB60EF1755D5EE00DFDF82 /* Segment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EB60F21755D5EE00DFDF82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07EB60F41755D5EE00DFDF82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				07EB61151755EACA00DFDF82 /* ViewController.m */,
 				07EB610F1755D62500DFDF82 /* CustomeSegmentControl.h */,
 				07EB61101755D62500DFDF82 /* CustomeSegmentControl.m */,
+				07161C0B176EE8E800453716 /* dfhr.h */,
+				07161C0C176EE8E800453716 /* dfhr.m */,
 				07EB60F91755D5EE00DFDF82 /* Supporting Files */,
 			);
 			path = Segment;
@@ -182,6 +187,7 @@
 				07EB61031755D5EE00DFDF82 /* AppDelegate.m in Sources */,
 				07EB61111755D62600DFDF82 /* CustomeSegmentControl.m in Sources */,
 				07EB61161755EACB00DFDF82 /* ViewController.m in Sources */,
+				07161C0D176EE8E800453716 /* dfhr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +302,7 @@
 				07EB610E1755D5EE00DFDF82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
